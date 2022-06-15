@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unilab Project</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
@@ -15,14 +22,8 @@
   </head>
   <body>
     <div class="main">
-      <nav class="navbar bg-light fixed-top">
+      <nav class="navbar navbar-expand-md bg-light fixed-top">
         <div class="container-fluid">
-          <p
-            style="font-size: 16px; margin: 5px"
-            class="navbar-brand fw-bold text-danger"
-          >
-            LOGO
-          </p>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,8 +33,16 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <p
+            style="font-size: 13px; margin: 5px; color: #a6adb4"
+            class="navbar-brand fw-bold"
+          >
+            LOGO
+          </p>
+          <img src="./assets/avatar.png" alt="avatar-image" />
           <div
-            class="offcanvas offcanvas-end"
+            style="width: 75%"
+            class="offcanvas offcanvas-start"
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -77,6 +86,7 @@
           </div>
         </div>
       </nav>
+      <div style="width: 100%; height: 50px" class="empty"></div>
       <div class="navbar hidden">
         <div class="navbar-left">
           <p style="color: #fa6980; font-weight: 600; margin: 0">LOGO</p>
@@ -96,23 +106,484 @@
       </div>
       <div class="world-news">
         <div class="world-news-left">
-            <img src="./assets/Image.png" alt="nature-image">
-            <div class="world-news-left-text">
-                <h1>World News</h1>
-                <hr>
-                <h2>Amazing places in america to visit.</h2>
-                <p>For some reason---this country,this city,this neighborhood,this particular <br>
-                    street --- is the place you are living a majority of your life in.
-                </p>
-                <button>LEARN MORE</button>
-            </div>
+          <img src="./assets/Imag.png" alt="nature-image" />
+          <div class="world-news-left-text">
+            <h1>World News</h1>
+            <hr />
+            <h2>Amazing places in america to visit.</h2>
+            <p>
+              For some reason---this country,this city,this neighborhood,this
+              particular <br />
+              street --- is the place you are living a majority of your life in.
+            </p>
+            <button><a href="./learnmore.html">LEARN MORE</a></button>
+          </div>
         </div>
-        <div class="world-news-right"></div>
+        <div class="world-news-right">
+          <div class="world-new-right-text">
+            <div class="world-new-right-text-top">
+              <h1
+                style="
+                  font-size: 24px;
+                  font-weight: bold;
+                  display: flex;
+                  justify-content: space-between;
+                "
+              >
+                MORE NEWS<span
+                  ><i
+                    style="
+                      font-size: 15px;
+                      margin: 5px;
+                      position: relative;
+                      right: 30px;
+                      color: gray;
+                    "
+                    class="fa-solid fa-less-than"
+                  ></i
+                  ><i
+                    style="font-size: 15px; margin: 5px"
+                    class="fa-solid fa-greater-than"
+                  ></i
+                ></span>
+              </h1>
+            </div>
+            <div class="world-new-right-text-bot">
+              <h2 style="color: #fa6980; font-size: 16px; font-weight: bold">
+                TRAVEL
+              </h2>
+              <h2 style="font-size: 16px; font-weight: bold">Article title</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+                aspernatur architecto optio velit...
+              </p>
+              <span style="display: flex; align-items: center"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                  style="color: gray"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                  />
+                </svg>
+                <p style="margin: 0 5px; color: gray">2m ago</p>
+              </span>
+              <h2
+                style="
+                  color: #fa6980;
+                  font-size: 16px;
+                  font-weight: bold;
+                  margin-top: 15px;
+                "
+              >
+                TECHNOLOGY
+              </h2>
+              <h2 style="font-size: 16px; font-weight: bold">Article title</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+                aspernatur architecto optio velit...
+              </p>
+              <span style="display: flex; align-items: center"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                  style="color: gray"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                  />
+                </svg>
+                <p style="margin: 0 5px; color: gray">2m ago</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending-main">
+        <div class="trending-top">
+          <h1
+            style="
+              font-size: 24px;
+              font-weight: bold;
+              display: flex;
+              justify-content: space-between;
+              display: inline;
+            "
+          >
+            TRENDING
+          </h1>
+          <span>
+            <i
+              style="
+                font-size: 15px;
+                margin: 5px 20px;
+                color: gray;
+                cursor: pointer;
+              "
+              class="fa-solid fa-less-than"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+            </i>
+            <i
+              style="
+                font-size: 15px;
+                margin: 5px 10px;
+                color: black;
+                cursor: pointer;
+              "
+              class="fa-solid fa-greater-than"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+            </i>
+          </span>
+        </div>
+        <div class="trending-bot">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide w-100"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/Image.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="/assets/annie-spratt-216507-unsplash.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="/assets/carlos-hevia-628890-unsplash.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="/assets/161975_1024x768.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="/assets/Imageee.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/Imagee.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="font-size: 16px; font-weight: bold">
+                      Lorem, ipsum dolor.
+                    </h2>
+                    <p style="font-size: 13px; color: gray">
+                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <span style="display: flex; align-items: center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="13"
+                        fill="currentColor"
+                        class="bi bi-clock"
+                        viewBox="0 0 16 16"
+                        style="color: gray"
+                      >
+                        <path
+                          d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                        />
+                        <path
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                        />
+                      </svg>
+                      <p style="margin: 0 5px; color: gray; font-size: 13px">
+                        2m ago
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="happening-now">
+        <div class="happening-top">
+          <h1 style="font-size: 24px; font-weight: bold">HAPPENING NOW</h1>
+          <span
+            ><i
+              style="
+                font-size: 15px;
+                margin: 5px;
+                color: gray;
+                position: relative;
+                right: 20px;
+              "
+              class="fa-solid fa-less-than"
+            ></i
+            ><i
+              style="font-size: 15px; margin: 5px"
+              class="fa-solid fa-greater-than"
+            ></i
+          ></span>
+        </div>
+        <div class="happening-bot">
+          <div class="happening-bot-left">
+            <div class="img-top">
+              <img src="/assets/Imageee.png" alt="" />
+              <div class="img-top-text">
+                <div class="img-top-text-top">
+                  <h1 style="font-size:16px; font-weight:bold; color:#ffffff">CITY</h1>
+                </div>
+                <div class="img-top-text-bot">
+                  <h1 style="font-size:24px; font-weight:bold; color:#ffffff">Large article title</h1>
+                  <p style="font-size:16px ; color:#ffffff">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde eos cupiditate porro non dignissimos ducimus!
+                  </p>
+                  <span style="display: flex; align-items: center"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      fill="currentColor"
+                      class="bi bi-clock"
+                      viewBox="0 0 16 16"
+                      style="color: #CBD0D3"
+                    >
+                      <path
+                        d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                      />
+                      <path
+                        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                      />
+                    </svg>
+                    <p style="margin: 0 5px; color: #CBD0D3; font-size: 13px">
+                      2m ago
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="img-bot">
+              <img src="/assets/Imagee.png" alt="" />
+              <div class="img-bot-text">
+                <div class="img-bot-text-top">
+                  <h1 style="font-size:16px; font-weight:bold; color:#ffffff">TRAVEL</h1>
+                </div>
+                <div class="img-bot-text-bot">
+                  <h1 style="font-size:24px; font-weight:bold; color:#ffffff">Large article title</h1>
+                  <p style="font-size:16px ; color:#ffffff">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde eos cupiditate porro non dignissimos ducimus!
+                  </p>
+                  <span style="display: flex; align-items: center"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      fill="currentColor"
+                      class="bi bi-clock"
+                      viewBox="0 0 16 16"
+                      style="color: #CBD0D3"
+                    >
+                      <path
+                        d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                      />
+                      <path
+                        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                      />
+                    </svg>
+                    <p style="margin: 0 5px; color: #CBD0D3; font-size: 13px">
+                      2m ago
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="happening-bot-right"></div>
+        </div>
       </div>
     </div>
-
-
-
 
     <script src="main.js"></script>
     <script
