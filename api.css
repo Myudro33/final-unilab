@@ -1,190 +1,38 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.more-button{
-  background-color: #fa6980;
-  font-weight: bold;
-  border: none;
-  width: 140px;
-  height: 40px;
+.divs {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
-  margin-top: 40px;
 }
-.elephant-bot {
-  height: 35%;
+.traveler-bot div {
+  margin: 20px;
+}
+.traveler-bot {
+  height: 90%;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-}
-.elephant-top {
-  height: 65%;
-  width: 100%;
-}
-.elephant {
-  width: 90%;
-  height: 830px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  border-bottom: 2px solid #a6adb4;
-}
-.info-right {
-  width: 30%;
-  height: 90%;
-}
-.info-mid {
-  width: 30%;
-  height: 90%;
-}
-.info-left {
-  width: 30%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.info {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 253px;
-  width: 90%;
-  margin-top: 50px;
-  border-bottom: 2px solid #a6adb4;
-  border-top: 2px solid #a6adb4;
 }
-.bot-right label {
-  color: black;
-  font-weight: bold;
-}
-.bot-right button {
-  background-color: #fa6980;
-  color: white;
-  font-weight: bold;
-  border: none;
-  width: 140px;
-  height: 40px;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-.bot-right {
-  width: 60%;
-  height: 60%;
-}
-.bot-left-text p {
-  color: #ffffff;
-  font-weight: bold;
-}
-.bot-left-text h1 {
-  color: #ffffff;
-  font-weight: bold;
-}
-.bot-left-text {
-  width: 30%;
-  height: 30%;
-  position: absolute;
-  left: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-.world-bot-right {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.world-bot-left {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.world-news-bot {
-  display: flex;
-  width: 100%;
-  height: 90%;
-}
-.world-top-left p {
-  margin: 0;
-}
-.world-top-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 250px;
-}
-.world-news-top {
+.traveler-top {
   height: 10%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-.world-news {
-  width: 90%;
-  height: 570px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.footer-right svg {
-  width: 25px;
-  height: 25px;
-  color: white;
-  margin-top: 20px;
-}
-.footer-right {
-  height: 70%;
-  width: 20%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.footer-middle {
-  height: 70%;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
-.footer-left div {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: #cbd0d3;
-}
-.footer-left {
-  height: 70%;
-  width: 35%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.footer {
-  width: 100%;
-  height: 200px;
+.travelers {
+  width: 90%;
+  height: auto;
+  margin: auto;
   margin-top: 100px;
-  background-color: #a6adb4;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
 }
+
+
+
+
+
 .ipad-bot-right svg{
   width: 1.3rem;
   height: 1.3rem;
@@ -227,6 +75,51 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+.footer-right svg {
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.footer-right {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-middle {
+  height: 70%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-left div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #cbd0d3;
+}
+.footer-left {
+  height: 70%;
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  background-color: #a6adb4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
 .nav-footer-bot svg{
   width: 1.5rem;
   height: 1.5rem;
@@ -311,7 +204,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
 }
 ::-webkit-scrollbar {
@@ -346,6 +238,7 @@
   }
   
 }
+
 
 /* ipad */
 @media screen and (min-width:621px) and (max-width:870px) {
