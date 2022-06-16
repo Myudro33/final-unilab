@@ -349,7 +349,71 @@
 
 /* ipad */
 @media screen and (min-width:621px) and (max-width:870px) {
-    .footer-ipad-top, .footer-ipad-bot{
+    
+  
+  
+  
+  
+  
+  
+  
+
+
+
+.elephant-bot p{
+  width: 100% !important;
+}
+  .elephant-top{
+    height: 300px;
+  }
+  .elephant{
+    justify-content: space-evenly;
+  }
+  .info-right{
+    grid-area: footer;
+    width: 90%;
+  }
+  .info-mid{
+    grid-area: menu;
+    width: 90%;
+  }
+  .info-left img{
+    margin-bottom: 10px;
+    
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .info-left{
+    grid-area: header;
+    width: 40%;
+  }
+  .info{
+    margin-top: 50px;
+    height: 500px;
+    flex-direction: column;
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'menu footer'
+    ;
+  }
+  .world-bot-right{
+    width: 100%;
+  }
+  .bot-left-text{
+    width: 100%;
+    left: 0;
+  }
+  .world-bot-left{
+    width: 100%;
+  }
+  .world-news-bot{
+    flex-direction: column;
+  }
+  .world-news{
+    height: 1100px;
+  }
+  .footer-ipad-top, .footer-ipad-bot{
         display: flex;
       }
     .footer{
