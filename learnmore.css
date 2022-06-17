@@ -328,6 +328,58 @@
 
 /* mobile */
 @media screen and (max-width: 620px) {
+  
+  
+  
+
+
+
+
+
+.more-button{
+  margin: 20px 0px;
+}
+  .elephant-bot p{
+    width: 90% !important;
+  }
+  .elephant-bot{
+    width: 100%;
+    align-items: center;
+  }
+  .elephant-top{
+    height: 25%;
+  }
+  .elephant{
+    height: 1100px;
+    justify-content: space-evenly;
+  }
+  .info div{
+    width: 90%;
+  }
+  .info{
+    flex-direction: column;
+    height: 750px;
+  }
+  .bot-right{
+    width: 90%;
+  }
+  .world-bot-right{
+    width: 100%;
+  }
+  .bot-left-text{
+    width: 80%;
+  }
+  .world-bot-left{
+    width: 100%;
+  }
+  .world-news-bot{
+    flex-direction: column;
+  width: 100%;
+  }
+  .world-news{
+    width: 100%;
+    height: 800px;
+  }
   .hidden {
     display: none;
   }
